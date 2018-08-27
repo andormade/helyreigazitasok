@@ -1,0 +1,30 @@
+.logo {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 34px;
+}
+
+.index-hu {
+    @extend .logo;
+    background: #ff9900;
+    color: black;
+}
+
+.magyar-idok {
+    @extend .logo;
+    background: #128b97;
+    color: white;
+}
+
+.hvg {
+    @extend .logo;
+    background: #e25900;
+    color: white; 
+}
+
+.origo {
+    @extend .logo;
+    background: #155092;
+    color: white;
+}

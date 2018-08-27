@@ -13,6 +13,8 @@ collections:
     output: true
   index-hu: 
     output: true
+  origo: 
+    output: true
 defaults:
   - scope:
       path: ""
@@ -23,7 +25,13 @@ defaults:
   - scope:
       path: ""
       type: magyar-idok
-      origin: "a Magyar Időkben"
     values:
       layout: correction
+      origin: "a Magyar Időkben"
+  - scope:
+      path: ""
+      type: origo
+    values:
+      layout: correction
+      origin: "az Origón"
 

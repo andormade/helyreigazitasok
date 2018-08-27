@@ -1,6 +1,5 @@
 ---
 title: "Nem akarta eltűntetni a szerződéseket az Emmi"
-categories: posts
 tags: emmi szerzodes adatigenyles
 correctionDate: 2018-02-01 17:52:00 -0200
 correctionUrl: "https://index.hu/belfold/2018/02/01/helyreigazitas/"

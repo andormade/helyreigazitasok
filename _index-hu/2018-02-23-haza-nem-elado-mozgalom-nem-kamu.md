@@ -1,6 +1,5 @@
 ---
 title: "A Haza Nem Eladó Mozgalom nem kamu párt"
-categories: posts
 tags: kamu part
 correctionDate: 2018-02-23 17:52:00 -0200
 correctionUrl: "https://index.hu/belfold/2018/02/23/helyreigazitas/"

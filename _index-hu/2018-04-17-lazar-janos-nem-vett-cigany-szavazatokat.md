@@ -1,6 +1,5 @@
 ---
 title: "Lázár János nem vásárolt roma szavazatokat"
-categories: posts
 tags: roma szavazatok lazar janos
 correctionDate: 2018-04-17 19:16:00 -0200
 correctionUrl: "https://index.hu/belfold/2018/04/17/helyreigazitas/"

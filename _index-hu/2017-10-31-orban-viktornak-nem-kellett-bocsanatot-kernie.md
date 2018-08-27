@@ -1,6 +1,5 @@
 ---
 title: "Orbán Viktronak nem kellett bocsánatot kérnie Gyurcsány Ferenctől"
-categories: posts
 tags: orban viktor gyurcsany ferenc bocsanat per 
 correctionDate: 2017-10-31 17:52:00 -0200
 correctionUrl: "https://index.hu/belfold/2018/04/17/helyreigazitas/"

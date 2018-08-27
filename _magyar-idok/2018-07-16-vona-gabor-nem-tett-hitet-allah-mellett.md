@@ -1,6 +1,5 @@
 ---
 title: "Vona Gábor nem tett hitet Allah mellett"
-categories: posts
 tags: vona gábor allah jobbik
 correctionDate: 2018-07-16 17:52:00 -0200
 correctionUrl: "https://magyaridok.hu/belfold/helyreigazitas-2-3300557"

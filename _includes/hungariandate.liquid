@@ -7,8 +7,10 @@ or:  {% include hungariandate.liquid date=page.date %}
 
 {% endcomment %}
 
-{{ include.date | date: "%Y." }}
 {% assign m = include.date | date: "%-m" %}
+{% assign d = include.date | date: "%-d" %}
+
+{{ include.date | date: "%Y." }}
 {% case m %}
 	{% when '1' %} január
 	{% when '2' %} február
@@ -23,4 +25,36 @@ or:  {% include hungariandate.liquid date=page.date %}
 	{% when '11' %} november
 	{% when '12' %} december
 {% endcase %}
-{{ include.date | date: "%-d." }}
+{{ include.date | date: "%-d" }}{% case d %}
+	{% when '1' %}-én
+	{% when '2' %}-án
+	{% when '3' %}-án
+	{% when '4' %}-én
+	{% when '5' %}-én
+	{% when '6' %}-án
+	{% when '7' %}-én
+	{% when '8' %}-án
+	{% when '9' %}-én
+    {% when '10' %}-én
+    {% when '10' %}-én
+    {% when '11' %}-én
+	{% when '13' %}-án
+	{% when '14' %}-én
+	{% when '15' %}-én
+	{% when '16' %}-án
+	{% when '17' %}-én
+	{% when '18' %}-án
+	{% when '19' %}-én
+    {% when '20' %}-án
+	{% when '21' %}-én
+	{% when '22' %}-én
+	{% when '23' %}-án
+	{% when '24' %}-én
+	{% when '25' %}-án
+	{% when '26' %}-án
+	{% when '27' %}-én
+	{% when '28' %}-án
+	{% when '29' %}-én
+	{% when '30' %}-án
+	{% when '31' %}-én
+{% endcase %}

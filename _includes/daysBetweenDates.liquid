@@ -1,0 +1,17 @@
+{% comment %}
+
+Usage: {% include daysBetweenDates.liquid date1=post.date date2=post.date %}
+
+2018 Andor Polgar (andor.cool)
+
+{% endcomment %}
+
+{% assign seconds1 = include.date1 | date: "%s" %}
+{% assign seconds2 = include.date2 | date: "%s" %}
+
+{% assign secondsBetweenDates = seconds1 | minus: seconds2 %}
+{% assign minutesBetweenDates = secondsBetweenDates | divided_by: 60 %}
+{% assign hoursBetweenDates = minutesBetweenDates | divided_by: 60 %}
+{% assign daysBetweenDates = hoursBetweenDates | divided_by: 24 %}
+
+{{ daysBetweenDates}}

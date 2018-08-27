@@ -1,6 +1,5 @@
 ---
 title: "Terry Blackkel ellentétben Vona Gábor megjelent a tárgyaláson"
-categories: posts
 tags: vona gabor terry black targyalas
 correctionDate: 2018-07-20 14:11:00 -0200
 correctionUrl: "https://magyaridok.hu/belfold/helyreigazitas-3-3314330/"

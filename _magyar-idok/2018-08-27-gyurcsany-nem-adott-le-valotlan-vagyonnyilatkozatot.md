@@ -1,6 +1,5 @@
 ---
 title: "Gyurcsány nem adott le valótlan tartalmú vagyonnyilatkozatot"
-categories: posts
 tags: gyurcsany ferenc vagyonnyilatkozat
 correctionDate: 2018-08-27 14:14:00 -0200
 correctionUrl: "https://magyaridok.hu/belfold/helyreigazitas-4-3422489/"
