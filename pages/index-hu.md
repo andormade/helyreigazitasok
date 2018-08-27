@@ -8,7 +8,7 @@ Index
 
 <ul>
 	{% for correction in site.index-hu %}
-		<li>
+		<li class="correction">
 			<a href="{{ correction.url }}">{{ correction.title }}</a>
 			{{ correction.content }}
 		</li>

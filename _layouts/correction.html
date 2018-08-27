@@ -1,0 +1,14 @@
+--- 
+layout: default
+---
+
+<div class="correction">
+	<h2>{{page.title}}</h2>
+
+	{{ content }}
+
+	<p>Az eredeti cikk {% include hungariandate.liquid date=page.originalDate %} dátummal {{ page.origin}} jelent meg
+		<a href="{{page.originalUrl}}">„{{page.originalTitle}}”</a> címmel, a szerzője {% if page.author %}{{page.author}}{% else %}ismeretlen{% endif %}. A helyreigazítás egy kicsivel később, 
+		{% include hungariandate.liquid date=page.correctionDate %} napján jelent meg <a href="{{page.correctionUrl}}">Helyreigazítás</a> címmel.
+	</p>
+</div>

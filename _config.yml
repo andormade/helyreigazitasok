@@ -13,5 +13,17 @@ collections:
     output: true
   index-hu: 
     output: true
-
+defaults:
+  - scope:
+      path: ""
+      type: index-hu
+    values:
+      layout: correction
+      origin: "az Indexen"
+  - scope:
+      path: ""
+      type: magyar-idok
+      origin: "a Magyar Időkben"
+    values:
+      layout: correction
 
