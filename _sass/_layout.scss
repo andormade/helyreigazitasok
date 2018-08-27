@@ -6,13 +6,26 @@ body {
 }
 
 .wrapper {
-    max-width: 600px;
+    max-width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
-h2 {
+h2, a {
     line-height: 34px;
     margin: 0;
     padding: 0;
     display: inline;
+    text-decoration: none;
+    color: #000000;
+}
+
+.column {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.correction {
+    padding: 10px;
 }
