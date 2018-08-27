@@ -1,0 +1,17 @@
+title: Helyreigazítások
+email: hngrhorace@gmail.com
+description: >
+ Helyreigazítások a magyar internetről.
+baseurl: ""
+url: "https://helyreigazitasok.hu"
+paginate: 7
+paginate_path: "/pages/:num/"
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "LICENSE", "CNAME"]
+permalink: /:categories/:year/:month/:day/:title
+collections:
+  magyar-idok:
+    output: true
+  index-hu: 
+    output: true
+
+
