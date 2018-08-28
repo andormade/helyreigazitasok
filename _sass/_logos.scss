@@ -1,3 +1,11 @@
+@mixin bgColorWithHover($color) {
+    background: $color;
+
+    &:hover {
+        background: lighten($color, 10%);
+    }
+}
+
 .logo {
     display: inline-block;
     font-weight: bold;
@@ -7,48 +15,56 @@
 
 .index-hu {
     @extend .logo;
-    background: #ff9900;
+    @include bgColorWithHover(#ff9900);
+
     color: black;
 }
 
 .magyar-idok {
     @extend .logo;
-    background: #128b97;
+    @include bgColorWithHover(#128b97);
+
     color: white;
 }
 
 .hvg {
     @extend .logo;
-    background: #e25900;
+    @include bgColorWithHover(#e25900);
+
     color: white; 
 }
 
 .origo {
     @extend .logo;
-    background: #155092;
+    @include bgColorWithHover(#155092);
+
     color: white;
 }
 
 .huszonnegy {
     @extend .logo;
-    background: #64667a;
+    @include bgColorWithHover(#64667a);
+
     color: #ffffff;  
 }
 
 .nyolcnyolcnyolc {
     @extend .logo;
-    background: #e01365;
+    @include bgColorWithHover(#e01365);
+
     color: #ffffff;  
 }
 
 .negynegynegy {
     @extend .logo;
-    background: #29af0a;
+    @include bgColorWithHover(#29af0a);
+
     color: #ffffff;  
 }
 
 .pesti-sracok {
     @extend .logo;
-    background:#F38C2D;
+    @include bgColorWithHover(#F38C2D);
+
     color: #ffffff;  
 }

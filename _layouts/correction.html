@@ -5,17 +5,19 @@ layout: default
 <div class="correction">
 	<a href="{{page.permalink}}"><h2>{{page.title}}</h2></a>
 
-	{{ content }}
-
 	<p>Az eredeti cikk {% include hungariandate.liquid date=page.originalDate %} {{ page.originOn}} jelent meg
 		<a href="{{page.originalUrl}}">„{{page.originalTitle}}”</a> címmel, a 
 		{% if page.author %}
-			szerzője {{page.author}}
+			szerzője {{page.author}}.
 		{% else %} 
-			szerző megjelölése nélkül
-		{% endif %}.
+			szerző megjelölése nélkül.
+		{% endif %}
 		A helyreigazítás {% include daysBetweenDates.liquid date1=page.correctionDate date2=page.originalDate %} nappal később, 
 		{% include hungariandate.liquid date=page.correctionDate %} jelent meg
 	 	<a href="{{page.correctionUrl}}">„Helyreigazítás”</a> címmel.
 	</p>
+	
+	<h3>A helyreigazítás szövege:</h3>
+
+	{{ content }}
 </div>
