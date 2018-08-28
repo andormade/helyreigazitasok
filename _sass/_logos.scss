@@ -1,8 +1,8 @@
 .logo {
     display: inline-block;
     font-weight: bold;
-    padding: 0 10px;
-    line-height: 34px;
+    padding: 0 24px;
+    line-height: 48px;
 }
 
 .index-hu {
@@ -27,4 +27,28 @@
     @extend .logo;
     background: #155092;
     color: white;
+}
+
+.huszonnegy {
+    @extend .logo;
+    background: #64667a;
+    color: #ffffff;  
+}
+
+.nyolcnyolcnyolc {
+    @extend .logo;
+    background: #e01365;
+    color: #ffffff;  
+}
+
+.negynegynegy {
+    @extend .logo;
+    background: #29af0a;
+    color: #ffffff;  
+}
+
+.pesti-sracok {
+    @extend .logo;
+    background:#F38C2D;
+    color: #ffffff;  
 }

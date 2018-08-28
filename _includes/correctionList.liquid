@@ -1,0 +1,14 @@
+{% for correction in include.corrections %}
+	<div class="column">
+		{% assign slug = correction.collection %}
+		<div class="correction">
+			<a href="{{ correction.url }}"><h2>{{correction.title}}</h2></a>
+			{{ correction.content | truncatewords: 39 }}
+    		<p><a href="/{{ slug }}/"class={{ slug }}>Még több {{correction.originFrom}}</a><p>
+		</div>
+	</div>
+	{% cycle '', '<div class="clear"></div>' %}
+{% endfor %}
+
+
+

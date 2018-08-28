@@ -1,5 +1,5 @@
 ---
-title: "Nem Dr. György István döntött egy Népligei terület átminősítéséről"
+title: "Nem Dr. György István döntött egy Népligeti terület átminősítéséről"
 tags: dr gyorgy istvan nepliget atminosites
 correctionDate: 2018-07-19 10:08:00 -0200
 correctionUrl: "https://hvg.hu/itthon/20180719_Helyreigazitas"

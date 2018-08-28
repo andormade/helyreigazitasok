@@ -2,29 +2,22 @@
 layout: default
 ---
 
-<div class="landing">
+{% assign lastFromIndex = site.index-hu.last %}
+{% assign lastFromOrigo = site.origo.last %}
+{% assign lastFromHVG = site.hvg.last %}
+{% assign lastFromMagyarIdok = site.magyar-idok.last %}
+{% assign lastFrom24hu = site.huszonnegy.last %}
+{% assign lastFrom888 = site.nyolcnyolcnyolc.last %}
+{% assign lastFrom444 = site.negynegynegy.last %}
+{% assign lastFromPestiSracok = site.pesti-sracok.last %}
 
-	<div class="column">
-	<span class="index-hu">Index</span>
-	{% for correction in site.index-hu %}
-		{% include correction.liquid correction=correction %}
-	{% endfor %}
+{% assign emptyArray = site.emptyArray %}
 
-	<span class="magyar-idok">Magyar Idők</span>
-	{% for correction in site.magyar-idok %}	
-		{% include correction.liquid correction=correction %}
-	{% endfor %}
-</div>
-<div class="column">
-	<span class="hvg">HVG</span>
-	{% for correction in site.hvg %}
-		{% include correction.liquid correction=correction %}
-	{% endfor %}
+{% assign everything = emptyArray | push: lastFromMagyarIdok | push: lastFromHVG | push: lastFromOrigo | push: lastFromIndex | push: lastFrom24hu | push: lastFrom888 | push: lastFrom444 | push: lastFromPestiSracok %}
+{% assign length = everything | size %}
+{% assign halfOfLength = length | divided_by: 2 %}
+{% assign everythingInRandomOrder = everything | sample: length %}
+{% assign leftColumn = everythingInRandomOrder | slice: 0, halfOfLength %}
+{% assign rightColumn = everythingInRandomOrder | slice: halfOfLength, length %}
 
-	<span class="origo">Origo</span>
-	{% for correction in site.origo %}
-		{% include correction.liquid correction=correction %}
-	{% endfor %}
-</div>
-
-</div>
+{% include correctionList.liquid corrections=everythingInRandomOrder %}

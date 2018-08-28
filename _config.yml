@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://helyreigazitasok.hu"
 paginate: 7
 paginate_path: "/pages/:num/"
+emptyArray: []
 exclude: ["README.md", "Gemfile.lock", "Gemfile", "LICENSE", "CNAME"]
 permalink: /:categories/:year/:month/:day/:title
 collections:
@@ -17,29 +18,77 @@ collections:
     output: true
   hvg: 
     output: true
+  huszonnegy:
+    output: true
+  nyolcnyolcnyolc:
+    output: true
+  negynegynegy:
+    output: true
+  pesti-sracok:
+    output: true
 defaults:
   - scope:
       path: ""
       type: index-hu
     values:
       layout: correction
-      origin: "az Indexen"
+      origin: "Index"
+      originOn: "az Indexen"
+      originFrom: "az Indexről"
   - scope:
       path: ""
       type: magyar-idok
     values:
       layout: correction
-      origin: "a Magyar Időkben"
+      origin: "Magyar Idők"
+      originOn: "a Magyar Időkben"
+      originFrom: "a Magyar Időkből"
   - scope:
       path: ""
       type: origo
     values:
       layout: correction
-      origin: "az Origón"
+      origin: "Origó"
+      originOn: "az Origón"
+      originFrom: "az Origóról"
   - scope:
       path: ""
       type: hvg
     values:
       layout: correction
-      origin: "a HVG-n"
+      origin: "HVG"
+      originOn: "a HVG-ben"
+      originFrom: "a HVG-ből"
+  - scope:
+      path: ""
+      type: huszonnegy
+    values:
+      layout: correction
+      origin: "24.hu"
+      originOn: "a 24.hu-n"
+      originFrom: "a 24.hu-ról"
+  - scope:
+      path: ""
+      type: nyolcnyolcnyolc
+    values:
+      layout: correction
+      origin: "888"
+      originOn: "a 888-on"
+      originFrom: "a 888-ról"
+  - scope:
+      path: ""
+      type: negynegynegy
+    values:
+      layout: correction
+      origin: "444"
+      originOn: "a 444-en"
+      originFrom: "a 444-ről"
+  - scope:
+      path: ""
+      type: pesti-sracok
+    values:
+      layout: correction
+      origin: "Pesti Srácok"
+      originOn: "a Pesti Srácokon"
+      originFrom: "a Pesti Srácoktól"
 
