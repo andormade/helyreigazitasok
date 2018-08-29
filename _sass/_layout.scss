@@ -1,26 +1,44 @@
-body {
+body, html {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background: #eeeeee;
+    background: #ffffff;
 }
 
-.wrapper {
+.white {
     background: #ffffff;
+    padding: 12px;
+
+    color: #333333;
+}
+
+.grey {
+    background: #eeeeee;
+    padding: 12px;
+
+    color: #666666;
+}
+
+.black {
+    background: #333333;
+    padding: 12px;
+    color: #cccccc;
 }
 
 .body {
     max-width: 900px;
     margin: 0 auto;
-   // padding: 12px;
     width: 100%;
 }
 
 .footer {
     margin: 0 auto;
-    padding: 12px;
     max-width: 900px;
     width: 100%;
+}
+
+.padding {
+    padding: 12px;
 }
 
 h2 {
@@ -59,8 +77,16 @@ p {
     line-height: 24px;
     padding: 12px 0;
     margin: 0;
-    color: #333333;
     letter-spacing: 0.25px;
+}
+
+.quote {
+    font-family: serif;
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
 }
 
 .column {

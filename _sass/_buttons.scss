@@ -6,7 +6,7 @@
     }
 }
 
-.logo {
+.button {
     display: inline-block;
     font-weight: bold;
     padding: 0 24px;
@@ -14,57 +14,78 @@
 }
 
 .index-hu {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#ff9900);
 
     color: black;
 }
 
 .magyar-idok {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#128b97);
 
     color: white;
 }
 
 .hvg {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#e25900);
 
     color: white; 
 }
 
 .origo {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#155092);
 
     color: white;
 }
 
 .huszonnegy {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#64667a);
 
     color: #ffffff;  
 }
 
 .nyolcnyolcnyolc {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#e01365);
 
     color: #ffffff;  
 }
 
 .negynegynegy {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#29af0a);
 
     color: #ffffff;  
 }
 
 .pesti-sracok {
-    @extend .logo;
+    @extend .button;
     @include bgColorWithHover(#F38C2D);
+
+    color: #ffffff;  
+}
+
+.send-correction-button {
+    @extend .button;
+    @include bgColorWithHover(#339966);
+
+    color: #ffffff;  
+}
+
+.request-correction-button {
+    @extend .button;
+    @include bgColorWithHover(#996633);
+
+    color: #ffffff;  
+}
+
+.source-button {
+    @extend .button;
+    @include bgColorWithHover(#663399);
 
     color: #ffffff;  
 }
