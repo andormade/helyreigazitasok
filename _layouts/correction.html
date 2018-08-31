@@ -8,10 +8,17 @@ layout: default
 	</a>
 
 	<p>Az eredeti cikk {% include hungariandate.liquid date=page.originalDate %} {{ page.originOn }} jelent meg
-		<a target="_blank" rel="nofollow" href="{{ page.originalUrl }}">„{{ page.originalTitle }}”</a> címmel, a {% if page.author %} szerzője {{ page.author }}. {% else %} szerző megjelölése nélkül.
-		{% endif %} A helyreigazítás {% include daysBetweenDates.liquid date1=page.correctionDate date2=page.originalDate %} nappal
+		<a target="_blank" rel="nofollow" href="{{ page.originalUrl }}">„{{ page.originalTitle }}”</a> címmel, a
+		{% if page.author %} szerzője {{ page.author }}. 
+		{% else %} szerző megjelölése nélkül.
+		{% endif %}
+		{% if page.updatedOriginal %}
+		A helyreigazítás tényéről nem találtunk külön bejegyzést, csak az eredeti cikket frissítették.
+		{% else %}
+		A helyreigazítás {% include daysBetweenDates.liquid date1=page.correctionDate date2=page.originalDate %} nappal
 		később, {% include hungariandate.liquid date=page.correctionDate %} jelent meg
 		<a target="_blank" rel="nofollow" href="{{ page.correctionUrl }}">„Helyreigazítás”</a> címmel.
+		{% endif %}
 	</p>
 
 	<h3>A helyreigazítás szövege:</h3>

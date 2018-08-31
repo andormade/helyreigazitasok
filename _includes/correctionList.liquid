@@ -1,4 +1,6 @@
-{% for correction in include.corrections %}
+{% assign correctionsReversed = include.corrections | reverse %}
+
+{% for correction in correctionsReversed %}
 	<div class="column">
 		{% assign slug = correction.collection %}
 		<div class="correction">

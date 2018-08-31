@@ -1,5 +1,5 @@
 ---
-title: "Nem soros fia vonult fel a Budapest Pride-on"
+title: "Nem Soros fia vonult fel a Budapest Pride-on"
 tags: soros györgy fia alexander pride
 correctionDate: 2018-08-14 09:00:00 -0200
 correctionUrl: "https://pestisracok.hu/helyreigazitas-5/"
