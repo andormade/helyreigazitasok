@@ -8,8 +8,17 @@
 
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82349820-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-82349820-2');
+	</script>
+
 	<link href="{{ " /css/main.css " | prepend: baseurl | append: cache_buster }}" media="screen" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Libre+Baskerville" rel="stylesheet">
 
 	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/atom.xml" />
 
@@ -61,11 +70,11 @@
 	</div>
 	<div class="white">
 		<div class="footer center">
-	
-					<div class="padding">
-						<p><span class="quote">„Attól, hogy valami nem bizonyítható, még igaz lehet.”</span> – Huszár László, internetes kommentelő</p>
-					</div>
-			
+
+			<div class="padding">
+				<p><span class="quote">„Attól, hogy valami nem bizonyítható, még igaz lehet.”</span> – Huszár László, internetes kommentelő</p>
+			</div>
+
 			<div class="clear"></div>
 		</div>
 
