@@ -20,4 +20,4 @@ layout: default
 {% assign leftColumn = everythingInRandomOrder | slice: 0, halfOfLength %}
 {% assign rightColumn = everythingInRandomOrder | slice: halfOfLength, length %}
 
-{% include correctionList.liquid corrections=everythingInRandomOrder %}
+{% include correctionList.liquid corrections=everythingInRandomOrder moreButton=true %}

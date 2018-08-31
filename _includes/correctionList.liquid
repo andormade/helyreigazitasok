@@ -5,8 +5,12 @@
 		{% assign slug = correction.collection %}
 		<div class="correction">
 			<a href="{{ correction.url }}"><h2>{{correction.title}}</h2></a>
-			{{ correction.content | truncatewords: 39 }}
-    		<p><a href="/{{ slug }}/"class={{ slug }}>Még több {{correction.originFrom}}</a></p>
+			{{ correction.content | truncatewords: 38 }}
+			{% if include.moreButton %}
+    			<p><a href="/{{ slug }}/"class={{ slug }}>Még több {{correction.originFrom}}</a></p>
+			{% else %}
+				<p><a href="{{ correction.url }}"class={{ slug }}>Teljes szöveg</a></p>
+			{% endif %}
 		</div>
 	</div>
 	{% cycle '', '<div class="clear"></div>' %}
