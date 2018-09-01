@@ -1,0 +1,120 @@
+--- 
+layout: default
+---
+
+<div class="padding">
+	<h1>Helyreigazítás jelentő űrlap</h1>
+</div>
+
+<form method="POST" action="https://api.staticman.net/v2/entry/andormade/helyreigazitasok/master">
+	<input name="options[redirect]" type="hidden" value="https://helyreigazitasok.hu/koszonjuk">
+	
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazított cikkre mutató URL:</label>
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" name="fields[originalUrl]"></p>
+			<p>Példa: https://666.hu/hirek/a-politikusok-mindig-hazudnak</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazításra mutató URL:</label>
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" name="fields[correctionUrl]"></p>
+			<p>Példa: https://666.hu/hirek/helyreigazitas-5</p>
+			<p>Ha nem található külön közlemény a helyreigazításról, akkor üresen lehet hagyni.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazított cikk címe:</label>
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" name="fields[originalTitle]"></p>
+			<p>Példa: A politikusok mindig hazudnak</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazított cikk szerzője:</label>
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" name="fields[author]"></p>
+			<p>Példa: Hans Meier</p>
+			<p>Gyakran előfordul, hogy nem tüntetik fel a cikk szerzőjét, ez esetben felesleges tovább nyomozni, üresen lehet hagyni a mezőt.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazított cikk publikálásának a dátuma:</label>
+
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" fields="fields[originalDate]"></p>
+			<p>Példa: 2018-09-10</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazítás ideje:</label>
+
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input tpye="text" name="fields[correctionDate]"></p>
+			<p>Példa: 2018-10-02</p>
+			<p>Ha nem volt külön közlemény a helyreigazításról, akkor üresen lehet hagyni.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="column">
+		<div class="padding">
+			<label>A helyreigazítás szövege:</label>
+		</div>
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><textarea rows="6" name="fields[correction]"></textarea></p>
+			<p>Példa: A 2017. október 20-án megjelent „A politikusok mindig hazudnak” című írásunkban valótlanul híreszteltük, hogy
+				a politikusok mindig hazudnak. Ezzel szemben az igazság az, hogy nem mindig hazudnak.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+
+	<div class="column">
+		&nbsp;
+	</div>
+	<div class="column">
+		<div class="padding">
+			<p><input type="submit" class="send-correction-button" value="Küldés"/></p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</form>

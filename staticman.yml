@@ -1,4 +1,4 @@
-allowedFields: ["name", "email", "message"]
+allowedFields: ["correctionDate", "correctionUrl", "originalTitle", "originalDate", "originalUrl, "author"]
 branch: "master"
 commitMessage: "add correction"
 extension: ".md"
@@ -9,4 +9,4 @@ filename: "{@id}"
 path: "_unsorted/{@id}"
 pullRequestBody: "Dear human,\n\nHere's a new entry for your approval. :tada:\n\nMerge the pull request to accept it, or close it to send it away.\n\n:heart: Your friend [Staticman](https://staticman.net) :muscle:\n\n---\n"
 transforms:
-  message: "frontmatterContent"
+  correction: "frontmatterContent"

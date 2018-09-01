@@ -7,7 +7,7 @@ url: "https://helyreigazitasok.hu"
 paginate: 7
 paginate_path: "/pages/:num/"
 emptyArray: []
-exclude: ["README.md", "Gemfile.lock", "Gemfile", "LICENSE", "CNAME"]
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "LICENSE", "CNAME", "staticman.yml"]
 permalink: /:categories/:year/:month/:day/:title
 collections:
   magyar-idok:
