@@ -4,7 +4,7 @@ tags: gyurcsány ferenc political capital átvilágítás
 correctionDate: 2016-03-11 09:00:00 -0200
 correctionUrl: "https://pestisracok.hu/helyreigazitas-2/"
 originalTitle: "Gyurcsány házi tanácsadói furcsa módon megúszták az átvilágítást"
-originalDate: 2016-06-22 09:00 -0200
+originalDate: 2015-12-22 09:00 -0200
 originalUrl: "https://pestisracok.hu/gyurcsany-hazi-tanacsadojanak-nem-kellett-nemzetbiztonsagi-atvilagitas/"
 author: "Csizmadia Tamás"
 ---
