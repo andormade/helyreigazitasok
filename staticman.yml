@@ -1,4 +1,4 @@
-allowedFields: ["correctionDate", "correctionUrl", "originalTitle", "originalDate", "originalUrl, "author"]
+allowedFields: ["correctionDate", "correctionUrl", "originalTitle", "originalDate", "originalUrl", "author"]
 branch: "master"
 commitMessage: "add correction"
 extension: ".md"
