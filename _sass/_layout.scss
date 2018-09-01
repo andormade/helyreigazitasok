@@ -100,3 +100,18 @@ p {
 .correction {
     padding: 12px;
 }
+
+.header {
+    padding: 24px 0;
+}
+
+.logo {
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    background: url(/logo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
