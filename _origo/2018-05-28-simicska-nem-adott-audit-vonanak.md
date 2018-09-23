@@ -7,6 +7,7 @@ originalTitle: "Bármi történik a Jobbik kongresszusán, nyakukon a pártszaka
 originalDate: 2018-05-11 09:30 -0200
 originalUrl: "http://www.origo.hu/itthon/20180510-jobbik-tisztujito-kongresszus-nem-lesz-konnyu-dolga-az-uj-elnoknek.html"
 author: "Bordács Bálint"
+excerpt: "Valótlanul állítottuk, hogy Simicska Lajos visszakért Vona Gábortól egy 20 millió forint értékű Audit."
 ---
 
 A portálunkon 2018. május 11-én "Bármi történik a Jobbik kongresszusán, nyakukon a pártszakadás" címmel megjelent cikkben valótlanul állítottuk, hogy Simicska Lajos visszakért Vona Gábortól egy 20 millió forint értékű Audit.

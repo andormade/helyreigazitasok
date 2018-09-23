@@ -7,6 +7,7 @@ originalTitle: "Újabb piszkos dolgok derültek ki Gyurcsány és Botka ügyvéd
 originalDate: 2017-08-21 07:25 -0200
 originalUrl: "http://www.origo.hu/itthon/20170817-czegledy-csaba-botka-laszlo-gyurcsany-elozetes-csalas-visszaeles.html"
 author: "Kovács András"
+excerpt: "Valótlanul állítottuk és híreszteltük, hogy Czeglédy Csaba által vezetett Human Operator Zrt. az iskolaszövetkezeti diák tagok nevén valójában azok szüleit foglalkoztatta és azt is bebiztosította, hogy egy lebukás esetén ne őt, hanem a szövetkezeti vezetőket vegyék elő a hatóságok."
 ---
 
 2017 augusztus 21. napján a www.origo.hu online felületünkön 09:56 perckor közzétett „Újabb piszkos dolgok derültek ki Gyurcsány és Botka ügyvédjéről" című cikkünkben valótlanul állítottuk és híreszteltük, hogy Czeglédy Csaba által vezetett Human Operator Zrt. az iskolaszövetkezeti diák tagok nevén valójában azok szüleit foglalkoztatta és azt is bebiztosította, hogy egy lebukás esetén ne őt, hanem a szövetkezeti vezetőket vegyék elő a hatóságok.

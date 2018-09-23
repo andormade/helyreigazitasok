@@ -7,6 +7,7 @@ originalTitle: "Újra gyűjthetnek a kamupártok 2018-ban"
 originalDate: 2017-05-19 19:02:00 -0200
 originalUrl: "https://index.hu/belfold/2017/05/19/ujra_gyujthetnek_a_kamupartok_2018-ban/"
 author: "Csarnó Ella"
+excerpt: "Valótlanul állítottuk a 2017.05.19-i cikkünkben, hogy „A Haza Nem Eladó Mozgalom Párt” kamu párt."
 ---
 
 Valótlanul állítottuk a 2017.05.19-i cikkünkben, hogy „A Haza Nem Eladó Mozgalom Párt” kamu párt.

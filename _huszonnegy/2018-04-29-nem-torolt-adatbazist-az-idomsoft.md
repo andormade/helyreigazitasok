@@ -7,6 +7,7 @@ originalTitle: "Törölt egy óriási adatbázist a választási szoftver fejles
 originalDate: 2018-04-19 06:30 -0200
 originalUrl: "https://24.hu/belfold/2018/04/19/torolt-egy-oriasi-adatbazist-a-valasztasi-szoftver-fejlesztoje/"
 author: "Spirk József"
+excerpt: "Valótlanul állítottuk, hogy az IdomSoft Zrt.-nél törölték a szabálysértések elektronikusan tárolt adatait."
 ---
 
 A „Törölt egy óriási adatbázist a választási szoftver fejlesztője” című április 19-én megjelent cikkünkben valótlanul állítottuk, hogy az IdomSoft Zrt.-nél törölték a szabálysértések elektronikusan tárolt adatait.
