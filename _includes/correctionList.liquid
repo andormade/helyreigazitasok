@@ -1,7 +1,7 @@
 {% assign correctionsReversed = include.corrections | reverse %}
 
 {% for correction in correctionsReversed %}
-	<div class="column">
+	<div class="column-2">
 		{% assign slug = correction.collection %}
 		<div class="correction">
 			<a href="{{ correction.url }}"><h2>{{correction.title}}</h2></a>

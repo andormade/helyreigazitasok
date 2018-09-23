@@ -1,7 +1,7 @@
 allowedFields: ["correctionDate", "correctionUrl", "originalTitle", "originalDate", "originalUrl", "author", "correction"]
 branch: "master"
 commitMessage: "add correction"
-extension: ".md"
+extension: "md"
 format: "frontmatter"
 moderation: true
 name: "Helyreigazítások"

@@ -1,8 +1,13 @@
-@mixin bgColorWithHover($color) {
-    background: $color;
+@mixin bgColorWithHover($bgColor, $textColor) {
+    background: $bgColor;
+    color: $textColor;
 
     &:hover {
-        background: lighten($color, 10%);
+        background: lighten($bgColor, 10%);
+    }
+
+    &:visited {
+        color: $textColor;
     }
 }
 
@@ -13,81 +18,63 @@
     line-height: 48px;
     font-size: 16px;
     font-weight: normal;
+
+    &:visited {
+        color: #ffffff;
+    }
 }
 
 .index-hu {
     @extend .button;
-    @include bgColorWithHover(#ff9900);
-
-    color: black;
+    @include bgColorWithHover(#ff9900, #000000);
 }
 
 .magyar-idok {
     @extend .button;
-    @include bgColorWithHover(#128b97);
-
-    color: white;
+    @include bgColorWithHover(#128b97, #ffffff);
 }
 
 .hvg {
     @extend .button;
-    @include bgColorWithHover(#e25900);
-
-    color: white; 
+    @include bgColorWithHover(#e25900, #ffffff);
 }
 
 .origo {
     @extend .button;
-    @include bgColorWithHover(#155092);
-
-    color: white;
+    @include bgColorWithHover(#155092, #ffffff);
 }
 
 .huszonnegy {
     @extend .button;
-    @include bgColorWithHover(#64667a);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#64667a, #ffffff);
 }
 
 .nyolcnyolcnyolc {
     @extend .button;
-    @include bgColorWithHover(#e01365);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#e01365, #ffffff);
 }
 
 .negynegynegy {
     @extend .button;
-    @include bgColorWithHover(#29af0a);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#29af0a, #ffffff);
 }
 
 .pesti-sracok {
     @extend .button;
-    @include bgColorWithHover(#F38C2D);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#F38C2D, #ffffff);
 }
 
 .send-correction-button {
     @extend .button;
-    @include bgColorWithHover(#339966);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#339966, #ffffff);
 }
 
 .request-correction-button {
     @extend .button;
-    @include bgColorWithHover(#996633);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#996633, #ffffff);
 }
 
 .source-button {
     @extend .button;
-    @include bgColorWithHover(#663399);
-
-    color: #ffffff;  
+    @include bgColorWithHover(#663399, #ffffff);
 }
