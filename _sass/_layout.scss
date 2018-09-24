@@ -1,3 +1,5 @@
+$egyseg: 14px;
+
 body, html {
     @extend .sans;
     margin: 0;
@@ -7,21 +9,21 @@ body, html {
 
 .white {
     background: #ffffff;
-    padding: 12px;
+    padding: $egyseg;
 
     color: #333333;
 }
 
 .grey {
     background: #eeeeee;
-    padding: 12px;
+    padding: $egyseg;
 
     color: #666666;
 }
 
 .black {
     background: #333333;
-    padding: 12px;
+    padding: $egyseg;
     color: #cccccc;
 }
 
@@ -38,29 +40,34 @@ body, html {
 }
 
 .padding {
-    padding: 12px;
+    padding: $egyseg;
+}
+
+.title {
+    padding: $egyseg 0;
+    display: block;
 }
 
 h2 {
-    @extend .serif;
-
     line-height: 48px;
-    font-size: 34px;
+    font-size: 28px;
+    font-family: 'Open Sans';
     margin: 0;
-    padding: 12px 0;
-    display: block;
+    display: inline;
     color: #000000;
-    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 24px;
-    padding: 12px 0;
+    font-size: $egyseg * 2;
+    line-height: $egyseg * 2;
+    padding: $egyseg 0;
     margin: 0;
     color: #333333;
     letter-spacing: 0.25px;
+    font-family: 'Open Sans';
 }
 
 .clear {
@@ -72,14 +79,10 @@ a {
 }
 
 p {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 12px 0;
+    font-size: 18px;
+    line-height: $egyseg * 2;
+    padding: $egyseg 0;
     margin: 0;
-}
-
-.quote {
-    @extend .serif;
 }
 
 .center {
@@ -112,11 +115,11 @@ p {
 }
 
 .correction {
-    padding: 12px;
+    padding: $egyseg;
 }
 
 .header {
-    padding: 24px 0;
+    padding: $egyseg * 2 0;
 }
 
 .logo {

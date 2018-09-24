@@ -4,7 +4,7 @@
 	<div class="column-2">
 		{% assign slug = correction.collection %}
 		<div class="correction">
-			<a href="{{ correction.url }}"><h2>{{correction.title}}</h2></a>
+			<a class="title" href="{{ correction.url }}"><h2>{{correction.title}}</h2></a>
 			<p>{{ correction.excerpt | truncatewords: 38 }}</p>
 			{% if include.moreButton %}
     			<p><a href="/{{ slug }}/"class={{ slug }}>Még több {{correction.originFrom}}</a></p>
