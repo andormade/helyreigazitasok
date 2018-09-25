@@ -2,6 +2,8 @@
     background: $bgColor;
     color: $textColor;
 
+   // background: linear-gradient(to bottom, lighten($bgColor, 10%) 50%, $bgColor 50%);
+
     &:hover {
         background: lighten($bgColor, 10%);
     }
