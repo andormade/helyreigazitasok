@@ -1,4 +1,5 @@
 $egyseg: 14px;
+$width: 1000px;
 
 body, html {
     @extend .sans;
@@ -28,14 +29,14 @@ body, html {
 }
 
 .body {
-    max-width: 900px;
+    max-width: $width;
     margin: 0 auto;
     width: 100%;
 }
 
 .footer {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: $width;
     width: 100%;
 }
 
@@ -116,7 +117,12 @@ p {
 
 .correction {
     padding: $egyseg;
+
+    //height: $egyseg * 26;
+   // overflow: hidden;
+    //text-overflow: ellipsis;
 }
+
 
 .header {
     padding: $egyseg * 2 0;
@@ -124,7 +130,7 @@ p {
 
 .logo {
     display: block;
-    max-width: 900px;
+    max-width: $width;
     width: 100%;
     margin: 0 auto;
     height: 150px;

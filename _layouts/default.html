@@ -29,6 +29,9 @@
 	<div class="header">
 		<!--<h1>Helyreigazítások</h1>-->
 		<div class="logo"></div>
+		{% for newssite in site.defaults %}
+			<a class="{{ newssite.scope.type }}">{{ newssite.values.origin }}</a>
+		{% endfor %}
 	</div>
 	<div class="white">
 		<div class="body">
@@ -67,7 +70,7 @@
 		<div class="footer center">
 
 			<div class="padding">
-				<p><span class="quote">„Attól, hogy valami nem bizonyítható, még igaz lehet.”</span> – Huszár László, internetes kommentelő</p>
+				<p><span class="quote">„Attól, hogy valami nem bizonyítható, még igaz lehet.”</span> – H. László, internetes kommentelő</p>
 			</div>
 
 			<div class="clear"></div>
